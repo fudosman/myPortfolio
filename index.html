@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/douglas.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./js/bootstrap.js"></script>
+    <script src="jquery-1.11.1.min.js"></script>
+    <title>bootstrap</title>
+  </head>
+<body>
+    <section id="content">
+        <!-- the side section -->
+        <aside id="sidebar">
+         <div class="profile-box">
+            <div class="profile"></div>
+            
+         </div>    
+         <div>
+            <ul class="sidenav">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="">Profile</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Settings</a></li>
+                <li><a href="">Logout</a></li>
+            </ul>
+         </div>
+        </aside>
+        <!-- the main section -->
+        <main id="mainbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="icons">
+                            <span class="icon"></span>
+                            <span class="icon"></span>
+                            <span class="icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="dashboard">
+                            <h1>
+                                Dashboard
+                            </h1>
+                            <p>Welcome to learn with andrew admin panel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <div class="dashboard">
+                            <h1>
+                                50568
+                            </h1>
+                            <p> Revenue</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="dashboard">
+                            <h1>
+                                1256
+                            </h1>
+                            <p> Sales</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="dashboard">
+                            <h1>
+                               18
+                            </h1>
+                            <p> Store</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="dashboard">
+                            <h1>
+                                8745
+                            </h1>
+                            <p> User</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="img-bg">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card card1">
+                            <div class="card-header font-weight-bolder">LATEST USERS</div>
+                            <div class="card-body">
+                                <ol>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card card2">
+                            <div class="card-header font-weight-bold">LATEST USERS</div>
+                            <div class="card-body">
+                                <ol>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card card3">
+                            <div class="card-header font-weight-bold">LATEST TRANSACTION</div>
+                            <div class="card-body">
+                                <ol>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>blessing is happy</li>
+                                    <li>kachi is oyibo miss road</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+             <div class="row">
+                 <div class="col-12">
+                     <div class=" table-responsive dashboard">
+                         <table class="table table-bordered">
+                             <thead>
+                                 <th>SN</th>
+                                 <th>Customer Name</th>
+                                 <th>Order Date</th>
+                                 <th>Amount Paid</th>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td>1</td>
+                                     <td>james Cameron</td>
+                                     <td>24th september</td>
+                                     <td>10,000</td>
+                                 </tr>
+                                 <tr>
+                                    <td>2</td>
+                                    <td>Okafor Calistus</td>
+                                    <td>24th september</td>
+                                    <td>10,000</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    
+                                    <td>james Cameron</td>
+                                    <td>24th september</td>
+                                    <td>10,000</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>james Cameron</td>
+                                    <td>24th september</td>
+                                    <td>10,000</td>
+                                </tr>
+                             </tbody>
+                         </table>
+                     </div>
+                 </div>
+             </div>   
+            </div>
+        </main>
+    </section>
+    <script>
+        //$(document).ready()
+        $('.icons').click(function(e){
+            e.preventDefault();
+            $('#content').toggleClass('menuToggle');
+        })
+    </script>
+</body>
+</html>

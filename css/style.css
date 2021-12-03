@@ -1,0 +1,140 @@
+#sidebar{
+    height: 100vh;
+    background-color: #36404a;
+    width: 200px;
+    position: fixed;
+}
+
+#mainbar{
+    margin-left: 200px;
+    position: relative;
+
+}
+
+.icons{
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px #323b44 solid;
+    padding: 5px;
+    border-radius: 2px;
+}
+.icon{
+   width: 30px;
+   height: 5px;
+   background-color: #36040a;
+   display: block;
+   margin: 5px 0;
+}
+
+#mainbar .dashboard{
+    background: #36404a;
+    padding: 30px;
+    transition: 0.4s all;
+    color: #ffffff;
+    margin: 20px 0;
+    border-radius: 5px;
+
+}
+
+#mainbar .dashboard:hover {
+    background: rgba(0,0,0,0.6);
+}
+#mainbar .dashboard h1{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+#mainbar .dashboard p{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+@media(max-width: 768px){
+    #sidebar {
+        display: none;
+    }
+    #mainbar{
+        margin-left: 0;
+    }
+}
+
+#mainbar .img-bg{
+    background-image: url(../img/b7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 10px 0 30px 0;   
+    
+}
+
+.card1{
+background-color: #dedede;
+margin-bottom: 30px;
+}
+.card2{
+background-color: #bebebe ;
+margin-bottom: 30px;
+}
+.card3{
+    background-color: #323b44;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+
+.table{
+    color: silver;
+    margin-bottom: 0;
+}
+
+
+/* sidebar */
+#sidebar .profile-box{
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+}
+#sidebar .profile{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../img/douglas.jpg);
+    background-size: cover;
+    border: 1px solid silver;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sidebar .sidenav{
+    padding: 0;
+    margin: 0;
+}
+#sidebar .sidenav li{
+    list-style: none;
+    padding: 0;
+}
+#sidebar .sidenav li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s all;
+}
+#sidebar .sidenav li a:hover{
+    background-color: #fff;
+    color: #000;
+    text-indent: 5px;
+    border-left: 5px solid cyan;
+}
+/* toggle sidebar */
+#content.menuToggle #sidebar{
+    display: none;
+    width: 0;
+}
+#content.menuToggle #mainbar{
+    margin-left: 0;
+}
