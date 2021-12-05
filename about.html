@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/douglas.jpg" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="jquery-1.11.1.min.js"></script>
+    <title>Douglas</title>
+  </head>
+<body>
+    <section id="content">
+        <!-- the side section -->
+        <aside id="sidebar"> <a href="about.html">
+         <div class="profile-box">
+            <div class="profile"></div>
+            Afudoh Douglas
+         </div>    </a>
+         <div>
+            <ul class="sidenav">
+                <li><a href="projects.html">Projects Gallery</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="./resources/CV December 2021.pdf">Resume</a></li>
+            </ul>
+         </div>
+        </aside>
+        <!-- the main section -->
+        <main id="mainbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="dashboard">
+                            <div>
+                              <h1>
+                                  I will be your Developer! <button class="btn btn-info"> just call me</button>
+                              </h1>
+                            </div>
+                            <div><img src="./img/copy.jpg" style="padding: 1rem;" height="100%" width="100%" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script>
+        //$(document).ready()
+        $('.icons').click(function(e){
+            e.preventDefault();
+            $('#content').toggleClass('menuToggle');
+        })
+    </script>
+</body>
+</html>

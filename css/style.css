@@ -43,7 +43,7 @@ a{
 }
 
 #mainbar .dashboard:hover {
-    background: rgba(0,0,0,0.6);
+    background: rgba(38, 75, 53, 0.6);
 }
 #mainbar .dashboard h1{
     font-size: 20px;
@@ -64,9 +64,10 @@ a{
     }
 }
 .overlay{
-    background-color: rgba(40, 42, 44, 0.5);
+    background-color: rgba(40, 42, 44, 0.7);
     color: rgb(130, 211, 161);
     padding: 0.7rem;
+    height: 100%;
 }
 .img-kachi{
     background-image: url(../img/douglas.jpg);
@@ -123,7 +124,7 @@ margin-bottom: 30px;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-image: url(../img/douglas.jpg);
+    background-image: url(../img/copy.jpg);
     background-size: cover;
     border: 1px solid silver;
     text-align: center;
