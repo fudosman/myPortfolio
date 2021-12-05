@@ -115,6 +115,7 @@ margin-bottom: 30px;
 /* sidebar */
 #sidebar .profile-box{
     padding: 30px;
+    color: wheat;
     text-align: center;
     border-bottom: 1px solid silver;
 }
