@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/douglas.jpg" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <script src="./js/bootstrap.js"></script>
+  <script src="jquery-1.11.1.min.js"></script>
+  <title>My Profile</title>
+</head>
+
+<body>
+  <section id="content">
+    <!-- the side section -->
+    <aside id="sidebar">
+      <div class="profile-box">
+        <div class="profile"></div>
+
+      </div>
+      <div>
+        <ul class="sidenav">
+          <li><a href="projects.html">Projects Gallery</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+          <li><a href="./resources/CV December 2021.pdf">Resume</a></li>
+        </ul>
+      </div>
+    </aside>
+    <!-- the main section -->
+    <main id="mainbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 ">
+            <div class="img-kachi">
+              <div class="overlay">
+                <h1> I'M AFUDOH KACHI DOUGLAS</h1>
+                <h3>Software Engineer <button type="button" class="btn btn-info" onclick="window.location.href='https://github.com/fudosman'"> more about me</button></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card card1">
+              <div class="card-header font-weight-bolder">Front-end Skills</div>
+              <div class="card-body">
+                <ul>
+                  <li>Html</li>
+                  <li>Css (grid and flexbox)</li>
+                  <li>bootstrap Css</li>
+                  <li>JavaScript</li>
+                  <li>Vue.js framework</li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card card2">
+              <div class="card-header font-weight-bold">Back-end Skills</div>
+              <div class="card-body">
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>Vue.js CLI</li>
+                  <li>GitHub for version control</li>
+                  <li>Jest framework for testing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card card3">
+              <div class="card-header font-weight-bold">DataBase skills</div>
+              <div class="card-body">
+                <ul>
+                  <li>SQL</li>
+                  <li>MySQL</li>
+                  <li>MongoDB</li>
+                  <li>Mongoose</li>
+                  <li>DataBase Design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row"><a href="./resources/CV December 2021.pdf">
+            <div class="col-12">
+              <div class="resume">
+                <h1>
+                  View my Resume!
+                </h1>
+                <p>I utilize my software skill to contribute to growth of organisations!</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </section>
+  <script>
+    //$(document).ready()
+    $('.icons').click(function (e) {
+      e.preventDefault();
+      $('#content').toggleClass('menuToggle');
+    })
+  </script>
+</body>
+
+</html>

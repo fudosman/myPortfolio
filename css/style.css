@@ -4,13 +4,18 @@
     width: 200px;
     position: fixed;
 }
+body{
+    font-family: 'Poppins','Roboto', sans-serif;
+}
 
 #mainbar{
     margin-left: 200px;
     position: relative;
 
 }
-
+a{
+    text-decoration: none;
+}
 .icons{
     margin-top: 20px;
     display: inline-block;
@@ -58,7 +63,22 @@
         margin-left: 0;
     }
 }
-
+.overlay{
+    background-color: rgba(40, 42, 44, 0.5);
+    color: rgb(130, 211, 161);
+    padding: 0.7rem;
+}
+.img-kachi{
+    background-image: url(../img/douglas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(59, 48, 27);
+    background-repeat: no-repeat;
+}
 #mainbar .img-bg{
     background-image: url(../img/b7.jpg);
     background-size: cover;
@@ -137,4 +157,21 @@ margin-bottom: 30px;
 }
 #content.menuToggle #mainbar{
     margin-left: 0;
+}
+
+.resume{
+    background: #36404a;
+    padding: 30px;
+    transition: 0.4s all;
+    color: #ffffff;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#mainbar{
+    margin-left: 200px;
+    position: relative;
+    padding-top: 2rem;
+    background-color: whitesmoke;
+    height: 100vh;
 }

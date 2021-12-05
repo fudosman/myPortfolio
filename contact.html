@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/douglas.jpg" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <script src="./js/bootstrap.js"></script>
+  <script src="jquery-1.11.1.min.js"></script>
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <section id="content">
+    <!-- the side section -->
+    <aside id="sidebar">
+      <div class="profile-box">
+        <div class="profile"></div>
+
+      </div>
+      <div>
+        <ul class="sidenav">
+          <li><a href="projects.html">Projects Gallery</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+          <li><a href="./resources/CV December 2021.pdf">Resume</a></li>
+        </ul>
+      </div>
+    </aside>
+    <!-- the main section -->
+    <main id="mainbar">
+      <div class="container">
+        <section id="contact" class="contact">
+          <div class="container" data-aos="fade-up">
+
+            <div class="row">
+
+              <div class="col-lg-5 d-flex align-items-stretch">
+                <div class="info">
+                  <div class="address">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4>Address</h4>
+                    <address><a href=""> St. Mary’s Catholic Parish, <br>
+                      Oraukwu, Idemili North LGA, <br>
+                      Anambra State </a></address>
+                  </div>
+
+                  <div class="email">
+                    <h4>Email</h4>
+                    <p><a href="http://mail.google.com">afudohkachi@gmail.com</a></p>
+                  </div>
+
+                  <div>
+                    <h4>LinkedIn</h4>
+                    <p><a
+                        href="https://www.linkedin.com/in/kachi-afudoh-291202128/">https://www.linkedin.com/in/kachi-afudoh-291202128/</a>
+                    </p>
+                  </div>
+
+                  <div class="phone">
+                    <h4>Call</h4>
+                    <p><a href="">+2347067572151</a></p>
+                  </div>
+                  <div>
+                    <h4>GitHub</h4>
+                    <p><a href="https://github.com/fudosman">https://github.com/fudosman</a></p>
+                  </div>
+                  <div>
+                    <h4>Medium</h4>
+                    <p><a href="https://medium.com/@afudohkachi">https://medium.com/@afudohkachi</a></p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <label for="name">Your Name</label>
+                      <input type="text" name="name" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="name">Your Email</label>
+                      <input type="email" class="form-control" name="email" id="email" required>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Message</label>
+                    <textarea class="form-control" name="message" rows="10" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </section><!-- End Contact Section -->
+
+      </div>
+    </main>
+  </section>
+  <script>
+    //$(document).ready()
+    $('.icons').click(function (e) {
+      e.preventDefault();
+      $('#content').toggleClass('menuToggle');
+    })
+  </script>
+</body>
+
+</html>
